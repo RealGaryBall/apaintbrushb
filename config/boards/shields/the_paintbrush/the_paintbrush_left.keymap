@@ -17,10 +17,10 @@
 #define KEY_T 1
 #define KEY_S 0
 // EYIO Row
-#define KEY_E 7
-#define KEY_Y 6
-#define KEY_I 5
-#define KEY_O 4
+#define KEY_E 4
+#define KEY_Y 5
+#define KEY_I 6
+#define KEY_O 7
 
 // Define Offsets
 #define LEADING_NONES NONE(0,0,0)
