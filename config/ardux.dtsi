@@ -166,7 +166,7 @@
 				LEADING_NONES                                          \
 				&none               &kp C_VOL_UP  &kp K_COPY   &kp K_PASTE \
 				MIDDLE_NONES                                           \
-				&mo LAYER_ID_CUSTOM &kp C_VOL_DN  &kp LC(LG(LEFT)) &sk LC(LG(RIGHT))  \
+				&mo LAYER_ID_CUSTOM &kp C_VOL_DN  &kp LC(C) &sk LC(V)  \
 				TRAILING_NONES                                         \
 			>;                                                         \
 		};
