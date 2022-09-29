@@ -1,7 +1,7 @@
 if SHIELD_THE_PAINTBRUSH_LEFT || SHIELD_THE_PAINTBRUSH_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "ARTSEYio"
+	default "Paintbrush"
 
 config I2C
 	default y
