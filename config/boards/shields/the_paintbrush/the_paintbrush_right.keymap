@@ -11,12 +11,12 @@
 // Left/Right
 #define ARDUX_RIGHT 1
 
-// ARTS Row
+// ORTS Row
 #define KEY_O 0
 #define KEY_R 1
 #define KEY_T 2
 #define KEY_S 3
-// EYIO Row
+// EYIA Row
 #define KEY_E 4
 #define KEY_Y 5
 #define KEY_I 6
