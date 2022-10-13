@@ -12,14 +12,14 @@
 #define ARDUX_RIGHT 1
 
 // ORTS Row
-#define KEY_S 0
-#define KEY_I 1
-#define KEY_Y 2
-#define KEY_E 3
+#define KEY_O 0
+#define KEY_Y 1
+#define KEY_I 2
+#define KEY_A 3
 // EYIA Row
-#define KEY_O 4
-#define KEY_Y 5
-#define KEY_T 6
+#define KEY_S 4
+#define KEY_T 5
+#define KEY_R 6
 #define KEY_A 7
 
 // Define Offsets
