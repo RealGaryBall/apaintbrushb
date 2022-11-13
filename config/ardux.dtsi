@@ -177,10 +177,10 @@
  * Define base layer chars for 'standard ARDUX' or 'COLEMAK' inspired (you can add more by following the pattern below)
  * Turn on the ARDUX_COLEMAK definition above if you want this change
  *****************************************/
-#define ARDUX_BASE_A A
-#define ARDUX_BASE_R R
-#define ARDUX_BASE_T T
-#define ARDUX_BASE_S S
+#define ARDUX_BASE_A S
+#define ARDUX_BASE_R T
+#define ARDUX_BASE_T R
+#define ARDUX_BASE_S A
 #define ARDUX_BASE_E E
 #define ARDUX_BASE_Y Y
 #define ARDUX_BASE_I I
