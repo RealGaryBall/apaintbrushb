@@ -151,9 +151,9 @@
 			label = "Custom";                                          \
 			bindings = <                                               \
 				LEADING_NONES                                          \
-				&kp C_MUTE &kp INS   &kp C_VOL_UP  &mo LAYER_ID_CUSTOM               \
+				&sk LG(LC(RIGHT))  &kp LG(LC(LEFT))   &kp C_VOL_UP  &mo LAYER_ID_CUSTOM               \
 				MIDDLE_NONES                                           \
-				&sk RSHFT  &kp PSCRN &kp C_VOL_DN  &none 		\
+				&none  &kp C_VOL_DN  &kp C_BRI_DN   &kp C_BRI_UP 		\
 				TRAILING_NONES                                         \
 			>;                                                         \
 		};
@@ -375,9 +375,9 @@
 			label = "Paren";
 			bindings = <
 				LEADING_NONES
-				&mo LAYER_ID_PARENTHETICALS                         &kp LPAR  &kp RPAR  &kp LBRC
+				&mo LAYER_ID_PARENTHETICALS           &kp RPAR      &kp LPAR  &kp LBRC
 				MIDDLE_NONES
-				&none                                               &kp LBKT  &kp RBKT  &kp RBRC
+				&kp RBRC     &kp LBKT  &kp RBKT    &none 
 				TRAILING_NONES
 			>;
 		};
