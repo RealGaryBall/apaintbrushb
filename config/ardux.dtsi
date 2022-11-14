@@ -252,10 +252,10 @@
 		combo_slash       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_O>; bindings = <&kp SLASH>; };
 		combo_exclamation { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_I>; bindings = <&kp EXCL>; };
 		
-		combo_three 	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_R>; bindings = <&kp N3>; };
-		combo_two 	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_T>; bindings = <&kp N2>; };
-		combo_one  	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp N1>; };
-		combo_zero  	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_Y>; bindings = <&kp N0>; };
+		combo_three 	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_R>; bindings = <&kp N3>; };
+		combo_two 	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_A>; bindings = <&kp N2>; };
+		combo_one  	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_Y>; bindings = <&kp N1>; };
+		combo_zero  	{ layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp N0>; };
 
 		/*****************************************
 		 * 3 key combos
@@ -341,9 +341,9 @@
 			label = "ARDUX";
 			bindings = <
 				LEADING_NONES
-				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &kp ARDUX_BASE_R     &kp ARDUX_BASE_T     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S
+				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &kp ARDUX_BASE_R     &kp ARDUX_BASE_T     &layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_S
 				MIDDLE_NONES
-				&layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E                &kp ARDUX_BASE_Y     &kp ARDUX_BASE_I     &layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O
+				&layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E                &kp ARDUX_BASE_Y     &kp ARDUX_BASE_I     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_O
 				TRAILING_NONES
 				#if defined CUSTOM_THUMB
 				CUSTOM_THUMB
@@ -355,7 +355,7 @@
 			label = "Number";
 			bindings = <
 				LEADING_NONES
-				&kp N7                                              &kp N8    &kp N9    &none
+				&none	&kp N9	 &kp N8	&kp N7 
 				MIDDLE_NONES
 				&kp N4                                              &kp N5    &kp N6    &mo LAYER_ID_NUMBERS
 				TRAILING_NONES
