@@ -151,9 +151,9 @@
 			label = "Custom";                                          \
 			bindings = <                                               \
 				LEADING_NONES                                          \
-				&sk LG(LC(RIGHT))  &kp LG(LC(LEFT))   &kp C_VOL_UP  &mo LAYER_ID_CUSTOM               \
+				 &kp LG(LC(LEFT)) &sk LG(LC(RIGHT))     &kp C_BRI_UP       &mo LAYER_ID_CUSTOM  \
 				MIDDLE_NONES                                           \
-				&none  &kp C_VOL_DN  &kp C_BRI_DN   &kp C_BRI_UP 		\
+				&kp C_VOL_UP	&kp C_VOL_DN  &kp C_BRI_DN   		&none \
 				TRAILING_NONES                                         \
 			>;                                                         \
 		};
@@ -355,7 +355,7 @@
 			label = "Number";
 			bindings = <
 				LEADING_NONES
-				&none	&kp N9	 &kp N8	&kp N7 
+				&kp N7		 &kp N8	 &kp N9  &none
 				MIDDLE_NONES
 				&kp N4  &kp N5    &kp N6    &mo LAYER_ID_NUMBERS
 				TRAILING_NONES
@@ -375,9 +375,9 @@
 			label = "Paren";
 			bindings = <
 				LEADING_NONES
-				&mo LAYER_ID_PARENTHETICALS           &kp RPAR      &kp LPAR  &kp LBRC
+				&mo LAYER_ID_PARENTHETICALS           &kp RPAR    &kp RBKT    &kp RBRC
 				MIDDLE_NONES
-				&kp RBRC     &kp LBKT  &kp RBKT    &none 
+				&none 			&kp LPAR     &kp LBKT     &kp LBRC
 				TRAILING_NONES
 			>;
 		};
@@ -385,7 +385,7 @@
 			label = "Nav";
 			bindings = <
 				LEADING_NONES
-				&kp PG_UP                                            &kp END	&kp UP   &kp HOME
+				&kp HOME 	&kp UP        &kp END   &kp PG_UP  
 				MIDDLE_NONES
 				&kp LEFT                                            &kp DOWN  &kp RIGHT &kp PG_DN
 				TRAILING_NONES
